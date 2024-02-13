@@ -1,7 +1,7 @@
 AUTHOR = "Alessandro"
 SITENAME = "Alessandro Ferrini"
 SITEURL = ""
-CONTACT_EMAIL = "im@alessandroferrini.com"
+CONTACT_EMAIL = "contact@alessandroferrini.com"
 PATH = "content"
 
 TIMEZONE = "Europe/Rome"
@@ -16,7 +16,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (("Github", "https://github.com/Alurith/"),)
+LINKS = (
+    ("Github", "https://github.com/Alurith/"),
+    ("LinkedIn", "https://www.linkedin.com/in/alessandro-ferrini-it86/"),
+)
 
 # Social widget
 SOCIAL = (
@@ -35,24 +38,30 @@ DESCRIPTION = "I am a fullstack web developer with a lenght experience in Python
 
 PROJECTS = [
     {
+        "title": "Flowtex",
+        "stack": ["Django 4.2", "htmx", "PostgreSQL"],
+        "description": "",
+    },
+    {
+        "title": "Modula Integration",
+        "stack": ["Python 3.11", "redis", "rocketry"],
+        "description": "Integrate Modula with client's management software",
+    },
+    {
         "title": "Knowledgebase Azerbaijan",
-        "stack": ["django", "htmx", "postgres"],
-        "description": "Lorem Impsum CImet os best OS",
+        "stack": ["Django 4.2", "htmx", "PostgreSQL", "redis"],
+        "description": "Share best practices for social entrepreneurs in Azerbaijan ",
+        "link": "https://knowledge-platform-web.onrender.com/",
     },
     {
         "title": "Reset",
-        "stack": ["django", "htmx", "postgres"],
-        "description": "Lorem Impsum CImet os best OS",
-        "link": "https://www.google.com",
-    },
-    {
-        "title": "Flowtex",
-        "stack": ["django", "htmx", "postgres"],
-        "description": "Lorem Impsum CImet os best OS",
+        "stack": ["Django 4.2", "htmx", "PostgreSQL"],
+        "description": "RESults Enabling Transitions: mapping green and circular business support achievements in the MED region",
+        "link": "https://reset-web.onrender.com/",
     },
     {
         "title": "DaTa",
-        "stack": ["django", "htmx", "mariadb"],
-        "description": "Lorem Impsum CImet os best OS",
+        "stack": ["Django 2.0", "htmx", "MariaDB"],
+        "description": "Dashboard to visualize data from different leathercutting machines, supporting brands like: Comelz, Teseo, and Atom",
     },
 ]
