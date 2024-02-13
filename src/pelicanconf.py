@@ -1,7 +1,7 @@
-AUTHOR = "Alessandro Ferrini"
+AUTHOR = "Alessandro"
 SITENAME = "Alessandro Ferrini"
 SITEURL = ""
-
+CONTACT_EMAIL = "im@alessandroferrini.com"
 PATH = "content"
 
 TIMEZONE = "Europe/Rome"
@@ -16,17 +16,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+LINKS = (("Github", "https://github.com/Alurith/"),)
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("Github", "https://github.com/Alurith/"),
+    ("X", "https://github.com/Alurith/"),
+    ("Instagram", "https://www.instagram.com/imalessandro/"),
 )
 
 DEFAULT_PAGINATION = 10
@@ -34,3 +30,29 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 THEME = "theme/"
+
+DESCRIPTION = "I am a fullstack web developer with a lenght experience in Python, my stack involves Django, htmx, FastApi, Starlite"
+
+PROJECTS = [
+    {
+        "title": "Knowledgebase Azerbaijan",
+        "stack": ["django", "htmx", "postgres"],
+        "description": "Lorem Impsum CImet os best OS",
+    },
+    {
+        "title": "Reset",
+        "stack": ["django", "htmx", "postgres"],
+        "description": "Lorem Impsum CImet os best OS",
+        "link": "https://www.google.com",
+    },
+    {
+        "title": "Flowtex",
+        "stack": ["django", "htmx", "postgres"],
+        "description": "Lorem Impsum CImet os best OS",
+    },
+    {
+        "title": "DaTa",
+        "stack": ["django", "htmx", "mariadb"],
+        "description": "Lorem Impsum CImet os best OS",
+    },
+]
